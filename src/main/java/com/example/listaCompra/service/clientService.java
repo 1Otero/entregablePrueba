@@ -1,9 +1,6 @@
 package com.example.listaCompra.service;
 
-<<<<<<< HEAD
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
-=======
->>>>>>> 17e94da62ecb87f03ba4ce3a4e76897c89b02beb
 import org.springframework.stereotype.Service;
 import com.example.listaCompra.repository.clientRepository;
 import com.example.listaCompra.entity.client;
@@ -37,11 +34,8 @@ public class clientService {
     }
     public client saveClient(client client1){
         try{
-<<<<<<< HEAD
             String newPass= new BCryptPasswordEncoder().encode(client1.getPassword());
             client1.setPassword(newPass);
-=======
->>>>>>> 17e94da62ecb87f03ba4ce3a4e76897c89b02beb
             client cli= clientRepository.save(client1);
             return cli;
         }catch(Exception e){

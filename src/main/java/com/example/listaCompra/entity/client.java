@@ -19,11 +19,8 @@ public class client{
     private int edad;
     @JsonProperty("role")
     private String role;
-<<<<<<< HEAD
     @JsonProperty("password")
     private String password;
     @JsonProperty("email")
     private String email;
-=======
->>>>>>> 17e94da62ecb87f03ba4ce3a4e76897c89b02beb
 }
