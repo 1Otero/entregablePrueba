@@ -52,7 +52,11 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
+<<<<<<< HEAD
 					"raw": "{\r\n    \"nombre\": \"Ana\",\r\n    \"edad\": 29,\r\n    \"role\": \"Admin\",\r\n    \"password\": \"good\",\r\n    \"email\": \"truj@gmail.com\"\r\n}",
+=======
+					"raw": "{\r\n    \"nombre\": \"Ana\",\r\n    \"edad\": 29,\r\n    \"role\": \"Admin\"\r\n}",
+>>>>>>> 17e94da62ecb87f03ba4ce3a4e76897c89b02beb
 					"options": {
 						"raw": {
 							"language": "json"
@@ -131,6 +135,7 @@
 				}
 			},
 			"response": []
+<<<<<<< HEAD
 		},
 		{
 			"name": "login",
@@ -181,6 +186,8 @@
 				}
 			},
 			"response": []
+=======
+>>>>>>> 17e94da62ecb87f03ba4ce3a4e76897c89b02beb
 		}
 	]
 }
